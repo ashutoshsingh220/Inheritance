@@ -24,3 +24,121 @@ Inheritance is a key feature of object-oriented programming (OOP) that allows a 
 3. **Multilevel Inheritance**: A class is derived from another derived class.
 4. **Hierarchical Inheritance**: Multiple classes are derived from a single base class.
 5. **Hybrid Inheritance**: A combination of two or more types of inheritance.
+
+## Algorithm for Inheritance
+
+### Single Inheritance:
+
+1. **Start**
+
+2. **Initialize the Program**
+   - Begin the program by including necessary libraries (e.g., `#include <iostream>` in C++).
+
+3. **Define Base Class**
+   - Define a base class with some properties and methods.
+
+4. **Define Derived Class**
+   - Define a derived class that inherits from the base class using the `public` access specifier.
+
+5. **Main Function**
+   - Start the `main()` function.
+   - Create an object of the derived class.
+   - Access the inherited properties and methods using the derived class object.
+
+6. **End Program**
+   - Return 0 to indicate successful execution of the program.
+   - End the `main()` function.
+
+### Multiple Inheritance:
+
+1. **Start**
+
+2. **Initialize the Program**
+   - Begin the program by including necessary libraries (e.g., `#include <iostream>` in C++).
+
+3. **Define Base Classes**
+   - Define two or more base classes with some properties and methods.
+
+4. **Define Derived Class**
+   - Define a derived class that inherits from multiple base classes using the `public` access specifier.
+
+5. **Main Function**
+   - Start the `main()` function.
+   - Create an object of the derived class.
+   - Access the inherited properties and methods from all base classes using the derived class object.
+
+6. **End Program**
+   - Return 0 to indicate successful execution of the program.
+   - End the `main()` function.
+
+### Multilevel Inheritance:
+
+1. **Start**
+
+2. **Initialize the Program**
+   - Begin the program by including necessary libraries (e.g., `#include <iostream>` in C++).
+
+3. **Define Base Class**
+   - Define a base class with some properties and methods.
+
+4. **Define Intermediate Derived Class**
+   - Define a derived class that inherits from the base class using the `public` access specifier.
+
+5. **Define Final Derived Class**
+   - Define another derived class that inherits from the intermediate derived class using the `public` access specifier.
+
+6. **Main Function**
+   - Start the `main()` function.
+   - Create an object of the final derived class.
+   - Access the inherited properties and methods from all ancestor classes using the final derived class object.
+
+7. **End Program**
+   - Return 0 to indicate successful execution of the program.
+   - End the `main()` function.
+
+### Hierarchical Inheritance:
+
+1. **Start**
+
+2. **Initialize the Program**
+   - Begin the program by including necessary libraries (e.g., `#include <iostream>` in C++).
+
+3. **Define Base Class**
+   - Define a base class with some properties and methods.
+
+4. **Define Multiple Derived Classes**
+   - Define multiple derived classes that inherit from the base class using the `public` access specifier.
+
+5. **Main Function**
+   - Start the `main()` function.
+   - Create objects of each derived class.
+   - Access the inherited properties and methods using the derived class objects.
+
+6. **End Program**
+   - Return 0 to indicate successful execution of the program.
+   - End the `main()` function.
+
+### Hybrid Inheritance:
+
+1. **Start**
+
+2. **Initialize the Program**
+   - Begin the program by including necessary libraries (e.g., `#include <iostream>` in C++).
+
+3. **Define Base Classes**
+   - Define two or more base classes with some properties and methods.
+
+4. **Define Intermediate Derived Class**
+   - Define a derived class that inherits from one or more base classes using the `public` access specifier.
+
+5. **Define Final Derived Class**
+   - Define another derived class that inherits from the intermediate derived class and possibly other base classes using the `public` access specifier.
+
+6. **Main Function**
+   - Start the `main()` function.
+   - Create an object of the final derived class.
+   - Access the inherited properties and methods from all ancestor classes using the final derived class object.
+
+7. **End Program**
+   - Return 0 to indicate successful execution of the program.
+   - End the `main()` function.
